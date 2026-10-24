@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Turchnova_Prakt5_1</string>
+    <string name="weather">ПОГОДА</string>
+    <string name="inputCity">Введите город</string>
+    <string name="ChekTheWeather">Узнать погоду</string>
+    <string name="temp">Температура: -- °C</string>
+    <string name="pressure">Давление: -- гПа</string>
+    <string name="wind">Скорость ветра: -- м/с</string>
+</resources>

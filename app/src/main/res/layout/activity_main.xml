@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weather"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/darkblue"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="25dp"/>
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputCity"
+            android:inputType="textCapWords"
+            android:singleLine="true"
+            android:padding="14dp"
+            android:backgroundTint="@color/blue"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/buttonWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ChekTheWeather"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:background="@drawable/button"
+           />
+
+        <TextView
+            android:id="@+id/textTemperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/temp"
+            android:textSize="22sp"
+            android:textColor="@color/darkblue"
+            android:gravity="center"
+            android:layout_marginTop="165dp"
+            android:padding="12dp"
+            android:background="@drawable/pole"
+            />
+
+        <TextView
+            android:id="@+id/textPressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pressure"
+            android:textSize="18sp"
+            android:textColor="@color/darkblue"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:background="@drawable/pole"/>
+
+        <TextView
+            android:id="@+id/textWind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wind"
+            android:textSize="18sp"
+            android:textColor="@color/darkblue"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:background="@drawable/pole"/>
+
+    </LinearLayout>
+
+</ScrollView>
